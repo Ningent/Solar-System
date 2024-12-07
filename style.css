@@ -1,0 +1,138 @@
+body {
+    background-color: #000;
+}
+
+.etoile{
+    width:20px;
+    height:20px;
+    margin-top: -100px;
+    margin-left:50px ;
+    position: absolute;
+    visibility: visible;
+    z-index: 1;
+}
+
+.filant{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    right:0;
+    z-index: 2;
+}
+
+.sun {
+    width: 580px;
+    height: 500px;
+    position: absolute;
+    visibility: visible;
+    top:50%;
+    left:-250px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    z-index: 3;
+}
+
+.mercure {
+    display: block; 
+    width: 90px;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    left: 300px;
+    transform: translate(-50%); 
+    visibility: visible;
+    cursor: pointer;
+    z-index: 4;
+}
+
+.venuse{
+    display: block; 
+    width: 190px;
+    height: 100px;
+    position: absolute;
+    top: 45%;
+    left: 390px;
+    transform: translate(-45%); 
+    visibility: visible;
+    cursor: pointer;
+    z-index: 4;
+}
+
+.terre {
+    display: block; 
+    width: 190px;
+    height: 150px;
+    position: absolute;
+    top: 42%;
+    left: 510px;
+    transform: translate(-42%); 
+    visibility: visible;
+    cursor: pointer;
+    z-index: 4;
+}
+
+.marse{
+    display: block; 
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    top: 45%;
+    left: 650px;
+    transform: translate(-45%); 
+    visibility: visible;
+    cursor: pointer;
+    z-index: 4;
+}
+
+.jupiter{
+    display: block; 
+    width: 290px;
+    height: 290px;
+    position: absolute;
+    top: 30%;
+    left: 800px;
+    transform: translate(-30%); 
+    visibility: visible;
+    cursor: pointer;
+    z-index: 4;
+}
+
+.saturn {
+    display: block; 
+    width: 290px;
+    height: 290px;
+    position: absolute;
+    top: 30%;
+    left: 1050px;
+    transform: translate(-30%); 
+    visibility: visible;
+    cursor: pointer;
+    z-index: 4;
+}
+
+.uranus {
+    display: block; 
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 35%;
+    left: 1290px;
+    transform: translate(-35%); 
+    visibility: visible;
+    cursor: pointer;
+    z-index: 4;
+}
+
+.neptune {
+    display: block; 
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 35%;
+    left: 1490px;
+    transform: translate(-35%); 
+    visibility: visible;
+    cursor: pointer;
+    z-index: 4;
+}
